@@ -1,7 +1,14 @@
+@import url("https://fonts.cdnfonts.com/css/western");
 @import "tailwindcss";
 
 #loading-screen {
   background-image: url("https://media0.giphy.com/media/v1.Y2lkPTQ0NmEzMDk3enZtZXVrc3hmdnlvYTRhc2FtN3hqY2Z2MTFnYndlNjhpZjlvN2puNSZlcD12MV9naWZzX2dpZklkJmN0PWc/wUf0jPd2ksY92/giphy.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+#main-page {
+  background-image: url("https://i.imgur.com/vf3IjDc.jpeg");
   background-size: cover;
   background-position: center;
 }

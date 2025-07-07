@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import LoadingScreen from "./components/LoadingScreen";
+//! Uncomment this later
+// import LoadingScreen from "./components/LoadingScreen";
+import MainPage from "./components/MainPage";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -13,7 +15,13 @@ function App() {
     }
   }, [isLoading]);
 
-  return <>{isLoading ? <LoadingScreen /> : <div>False</div>}</>;
+  //! Uncomment this later
+  // return <>{isLoading ? <LoadingScreen /> : <MainPage />}</>;
+  return (
+    <>
+      <MainPage />
+    </>
+  );
 }
 
 export default App;
