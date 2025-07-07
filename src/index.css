@@ -1,35 +1,10 @@
 @import "tailwindcss";
-/* CSS RESET BY DIGITAL OCEAN */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
+#loading-screen {
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTQ0NmEzMDk3enZtZXVrc3hmdnlvYTRhc2FtN3hqY2Z2MTFnYndlNjhpZjlvN2puNSZlcD12MV9naWZzX2dpZklkJmN0PWc/wUf0jPd2ksY92/giphy.gif");
+  background-size: cover;
+  background-position: center;
 }
-
-ol,
-ul {
-  list-style: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-/* CSS RESET BY DIGITAL OCEAN */
 
 /*! Delete this later !*/
 body {
